@@ -1,0 +1,121 @@
+@media screen and (min-width: 1024px){
+    .partners{
+        height: 228px;
+    }
+
+    .text_partners{
+        font-size:40px ;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 72px;
+    }
+
+    .all_parnerse_emmblem{
+        display:flex;
+        gap:108px;
+        margin-left: 100px;
+        padding-left: 210px;
+        margin-right: 100px;
+        justify-content: center;
+        white-space: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width:none;
+    }
+
+    .emblemm{
+        display: flex;
+        align-items: center;
+    }
+
+    .name_emblem{
+        font-size: 24px;
+    }
+
+    .pages{
+        width: 69px;
+        height: 48px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+
+    .partners{
+        height: 280px;
+    }
+    
+    .text_partners{
+        font-size:40px ;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 72px;
+    }
+    
+    .all_parnerse_emmblem{
+        display:flex;
+        gap:108px;
+        margin-right: 160px;
+        margin-left: 160px; 
+        white-space: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+      
+
+    }
+    
+    .emblemm{
+        display: flex;
+        align-items: center;
+    
+    }
+
+    .name_emblem{
+        font-size: 24px;
+    }
+    
+    .pages{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 50px;
+        width: 69px;
+        height: 48px;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width:1023px)  {
+    .partners{
+        height: 280px;
+    }
+    
+    .text_partners{
+        margin-top: 29px;
+        font-size:30px ;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 72px;
+    }
+    
+    .all_parnerse_emmblem{
+        display:flex;
+        gap:20px;
+        justify-content: center;
+        white-space: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .emblemm{
+        display: flex;
+        align-items: center;
+    
+    }
+
+    .pages img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .name_emblem{
+        font-size: 16px; 
+    }
+}

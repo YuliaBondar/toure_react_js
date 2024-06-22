@@ -1,0 +1,114 @@
+
+@font-face {
+    font-family: 'SF Pro Display Regular';
+    src: url('../Footer/style/sf-pro-display-regular.otf') format('opentype');
+}
+@media screen and (min-width: 980px) {
+    .footer{
+        background-color: black;
+        height: 432px;
+    }
+    
+    .support, .concat, .company, .social{
+        color:white;
+        list-style-type: none;
+    }
+    .support_name,
+    .company_name,
+    .contant_name,
+    .social_name
+    {
+        font-size: 20px;
+        font-weight: bold;
+        padding-bottom: 32px;
+    }
+
+    .support_content li,
+    .company_content li,
+    .contant_content li {
+        font-size: 16px;
+        padding-bottom: 24px;
+        color:#BFBFBF;
+        font-family: 'SF Pro Display Regular', sans-serif; 
+    }
+
+    .footer_component{
+        padding-top: 66px;
+        padding-left:160px ;
+        padding-right: 216px;
+        display: flex;
+        justify-content: space-between;
+    }
+  
+    .seti_content{
+        display:flex;
+        gap:24px;
+    }
+
+    .container{
+        color:#8B8B8B;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 160px;
+        margin-right: 160px;
+        padding-top: 52px;
+        box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.7);
+        margin-top: 35px;
+        
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width:979px) {
+    .footer{
+        background-color: black;
+        height: 432px;
+    }
+    
+    .support, .concat, .company, .social{
+        color:white;
+        list-style-type: none;
+    }
+    .support_name,
+    .company_name,
+    .contant_name,
+    .social_name
+    {
+        font-size: 14px;
+        font-weight: bold;
+        padding-bottom: 32px;
+    }
+
+    .support_content li,
+    .company_content li,
+    .contant_content li {
+        font-size: 12px;
+        padding-bottom: 16px;
+        color:#BFBFBF;
+        font-family: 'SF Pro Display Regular', sans-serif; 
+    }
+
+    .footer_component{
+        padding-top: 66px;
+        padding-left:80px ;
+        padding-right: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+  
+    .seti_content{
+        display:flex;
+        gap:24px;
+    }
+
+    .container{
+        color:#8B8B8B;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 80px;
+        margin-right: 80px;
+        padding-top: 52px;
+        box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.7);
+        margin-top: 35px;
+        
+    }
+}

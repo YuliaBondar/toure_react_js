@@ -1,0 +1,327 @@
+@media screen and (min-width: 1024px) {
+
+.TopBook{
+  display: flex;
+  flex-direction: column;
+}
+
+.text_topbook{
+    text-align: center;
+}
+
+.top_places_now {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 64px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.about {
+   
+    margin-bottom: 32px;
+  }
+  
+.about_places{
+    display:flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Распределение элементов по краям контейнера */
+    align-items: center; /* Выравнивание элементов по вертикали */
+  }
+
+  .country{
+    display:flex;
+    font-size: 14px;
+    margin-top:-10px;
+    gap:5px;
+  }
+  .country .places a{
+    text-decoration: none;
+  color: inherit;
+  }
+ .country:hover{
+    text-decoration: dotted;
+    color:rgb(148, 55, 55);
+  }
+
+  .but_show{
+    display:flex;
+    justify-content:center;
+    margin-bottom: 100px;
+    gap:7px;
+  }
+  .button_open_all_places button{
+    font-size: 16px;
+    align-items: center;
+    border-radius: 40px;
+    width: 168px;
+    height: 48px;
+    border-color: rgb(211, 211, 211);
+    background-color: rgb(255, 255, 255);
+  }
+
+  .button_open_all_places {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .grade{
+    
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: gray;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    
+    
+  }
+  .page {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .star{
+    color:rgb(223, 223, 223);
+    width: 20px;
+    height: 20px
+  }
+  .star.selected {
+    color: rgb(217, 255, 0);
+  }
+  .star_one{
+    display:flex;
+  }
+
+  .star_grade button{
+    border-radius: 20px;
+    background-color: inherit;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+
+  .TopBook{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .text_topbook{
+      text-align: center;
+  }
+  
+  .top_places_now {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 64px;
+      margin-left: 160px;
+      margin-right: 160px;
+      
+      gap:20px;
+  }
+  
+  .about {
+     
+      margin-bottom: 32px;
+    }
+    
+  .about_places{
+      display:flex;
+      justify-content: space-between;
+      font-weight: bold;
+      font-size: 18px;
+  }
+  
+  
+  .container {
+      display: flex;
+      justify-content: space-between; 
+      align-items: center; 
+  }
+  
+  .country{
+      display:flex;
+      font-size: 14px;
+      margin-top:-10px;
+      gap:20px;
+  }
+  .country .places a{
+      text-decoration: none;
+    color: inherit;
+  }
+  .country:hover{
+      text-decoration: dotted;
+      color:rgb(148, 55, 55);
+  }
+  
+  .but_show{
+      display:flex;
+      justify-content:center;
+      gap:7px;
+  }
+    .button_open_all_places button{
+      font-size: 16px;
+      align-items: center;
+      border-radius: 40px;
+      width: 168px;
+      height: 48px;
+      border-color: rgb(211, 211, 211);
+      background-color: rgb(255, 255, 255);
+    }
+  
+    .button_open_all_places {
+      margin-top: 60px;
+      display: flex;
+      justify-content: center;
+    }
+    .page {
+      display: flex;
+      flex-direction: row-reverse;
+      gap:20px;
+      width:350px;
+      height: 350px;;
+    }
+  
+    .star{
+      color:rgb(223, 223, 223);
+      width: 20px;
+      height: 20px
+    }
+    .star.selected {
+      color: rgb(217, 255, 0);
+    }
+    .star_one{
+      display:flex;
+    }
+  
+    .star_grade button{
+      border-radius: 20px;
+      background-color: inherit;
+    }
+  }
+
+  @media screen and (min-width: 360px) and (max-width:1023px)  {
+
+    .TopBook{
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .text_topbook{
+      text-align: center;
+    }
+  
+    .top_places_now {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 34px;
+      margin-left: 80px;
+      margin-right: 80px;
+   }
+  
+   .about {
+     
+      margin-bottom: 32px;
+    }
+    
+  .about_places{
+      display:flex;
+      justify-content: space-between;
+      font-weight: bold;
+      font-size: 18px;
+  }
+  
+  
+  .container {
+      display: flex;
+      justify-content: space-between; /* Распределение элементов по краям контейнера */
+      align-items: center; /* Выравнивание элементов по вертикали */
+    }
+  
+    .country{
+      display:flex;
+      font-size: 14px;
+      margin-top:-10px;
+      gap:5px;
+    }
+
+    .country .places a{
+      text-decoration: none;
+    color: inherit;
+    }
+
+   .country:hover{
+      text-decoration: dotted;
+      color:rgb(148, 55, 55);
+    }
+  
+    .but_show{
+      display:flex;
+      justify-content:center;
+      gap:7px;
+    }
+    .button_open_all_places button{
+      font-size: 16px;
+      align-items: center;
+      border-radius: 40px;
+      width: 168px;
+      height: 48px;
+      border-color: rgb(211, 211, 211);
+      background-color: rgb(255, 255, 255);
+    }
+  
+    .button_open_all_places {
+      margin-top: 60px;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .grade{
+      width: 60px;
+      height: 30px;
+      border-radius: 20px;
+      background-color: gray;
+      opacity: 0.5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position:absolute;
+    }
+
+    .page {
+      display: flex;
+      flex-direction: row-reverse;
+    }
+  
+    .star{
+      color:rgb(223, 223, 223);
+      width: 20px;
+      height: 20px
+    }
+    .star.selected {
+      color: rgb(217, 255, 0);
+    }
+    .star_one{
+      display:flex;
+    }
+  
+    .star_grade button{
+      border-radius: 20px;
+      background-color: inherit;
+    }
+      
+  }

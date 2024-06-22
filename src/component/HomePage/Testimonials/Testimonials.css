@@ -1,0 +1,163 @@
+@media screen and (min-width: 360px) and (max-width:1023px)  {
+    .items {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        user-select: none;
+    
+    }
+
+    .items .places_1 {
+        display:flex;
+        width: 1200px;
+        gap:32px;
+        margin-left: 20px;
+        margin-top: -100px;
+    }
+
+    .places_1 .place {
+        background-color: white;  
+        width: 260px;
+        height: 200px;
+        border-radius: 24px;
+        box-shadow: 0px 10px 10px -10px #888;
+        box-shadow: 10px 10px 10px -10px #888, 
+                -10px 10px 10px -10px #888;
+    }
+
+    .emblem_ph img{
+        border-top-left-radius: 24px;
+        border-top-right-radius: 24px;
+        width: 80px;
+        height: 80px;
+        position: relative;
+        top: -40px;
+        left:28px;
+    }
+
+    .name_reiting{
+        display: flex;
+        justify-content: space-between;
+        margin-top: -60px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .about_place .prof{
+        font-size: 16px;
+        
+    }
+    .class_text{
+        font-size: 16px;
+    }
+    .yellow-star {
+        color: rgb(255, 230, 0);
+    }
+} 
+
+
+@media screen and (min-width: 1024px){
+    .items {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        user-select: none;
+    
+    }
+
+    .items .places_1 {
+        display:flex;
+        width: 1200px;
+        gap:42px;
+        margin-left: 20px;
+        margin-top: -100px;
+    }
+
+    .places_1 .place {
+        background-color: white;  
+        width: 341px;
+        height: 230px;
+        border-radius: 24px;
+        box-shadow: 0px 10px 10px -10px #888;
+        box-shadow: 10px 10px 10px -10px #888, 
+                -10px 10px 10px -10px #888;
+    }
+
+    .emblem_ph img{
+        border-top-left-radius: 24px;
+        border-top-right-radius: 24px;
+        width: 80px;
+        height: 80px;
+        position: relative;
+        top: -40px;
+        left:28px;
+    }
+
+    .name_reiting{
+        display: flex;
+        justify-content: space-between;
+        margin-top: -60px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .about_place .prof{
+        font-size: 12px;
+        
+    }
+    .yellow-star {
+        color: rgb(255, 230, 0);
+    }
+}
+
+
+@media screen and (min-width: 1600px) {
+    .items {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        user-select: none;
+    
+    }
+
+    .items .places_1 {
+        display:flex;
+        width: 1200px;
+        gap:42px;
+        margin-left: 20px;
+        margin-top: -100px;
+    }
+
+    .places_1 .place {
+        background-color: white;  
+        width: 341px;
+        height: 230px;
+        border-radius: 24px;
+        box-shadow: 0px 10px 10px -10px #888;
+        box-shadow: 10px 10px 10px -10px #888, 
+                -10px 10px 10px -10px #888;
+    }
+
+    .emblem_ph img{
+        border-top-left-radius: 24px;
+        border-top-right-radius: 24px;
+        width: 80px;
+        height: 80px;
+        position: relative;
+        top: -40px;
+        left:28px;
+    }
+
+    .name_reiting{
+        display: flex;
+        justify-content: space-between;
+        margin-top: -60px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .about_place .prof{
+        font-size: 12px;
+        
+    }
+    .yellow-star {
+        color: rgb(255, 230, 0);
+    }
+}

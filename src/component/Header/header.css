@@ -1,0 +1,225 @@
+@media screen and (min-width: 1024px) {
+    .homepage {
+      height: 736px;
+      width: 100%;
+      background-image: url('../Header/background.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      position: relative;
+    }
+  
+    .navigation {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 160px;
+      color: rgb(255, 255, 255);
+      padding-right: 160px;
+      padding-top: 40px;
+    }
+
+    .logo a {
+        font-size: 22px;
+      font-weight: bold;
+        color: rgb(255, 255, 255); 
+        text-decoration: none; 
+    }
+    
+    .navigat a{
+        color: rgb(255, 255, 255); 
+        text-decoration: none; 
+    }
+    
+    .navigation ul {
+      list-style: none;
+      display: flex;
+      gap: 72px;
+      font-size: 16px;
+    }
+  
+    .choice_page {
+      height: 120px;
+     
+    }
+  
+    .choice_toure_place {
+      position: absolute;
+      bottom: -120px;
+      left: 160px;
+      right: 160px;
+      height: 260px;
+      background-color: rgb(255, 255, 255);
+      border-radius: 32px;
+      padding: 40px;
+      box-shadow: 0 7px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .text_choice h1{
+        font-size: 45px;
+        color:rgb(113, 154, 219);
+        font-weight: bold;
+    }
+    .text_choice p{
+        font-size: 22px;
+    }
+    .choice_input{
+      
+        width: 100%;
+        height: 90px;
+        border-radius: 72px;
+        border: 1px solid #d4d3d3;
+        align-items: center;
+       
+    }
+  }
+
+ @media screen and (min-width: 1600px) {
+    .homepage{
+        height: 650px;
+        width: 100%;
+        background-image: url('../Header/background.png');
+        background-size: cover;
+        background-repeat: no-repeat; 
+        background-position: center;
+        position: relative; 
+    }   
+    
+    .navigation{
+    
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding-left: 160px;
+       color:white;
+       padding-right:  160px;
+       padding-top: 40px;
+    }
+    
+    .navigation .logo{
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .logo a {
+        font-size: 22px;
+      font-weight: bold;
+        color: white; 
+        text-decoration: none; 
+    }
+    
+    .navigation ul {
+        list-style: none;
+        display: flex;
+        gap: 24px; 
+        font-size: 14px;
+    }
+    
+    .navigat a{
+        color: white; 
+        text-decoration: none; 
+    }
+    
+    .choice_page{
+        height: 120px;
+    }
+    
+    .choice_toure_place {
+        position: absolute;
+        bottom: 200px;
+        left: 160px;
+        right: 160px;
+        height: 260px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0 10px 5px rgba(1, 1, 1, 0.1);
+        border-radius: 32px;
+        padding: 20px;
+    }
+
+    .text_choice h1{
+        font-size: 50px;
+        color:rgb(113, 154, 219);
+        font-weight: bold;
+    }
+    .text_choice p{
+        font-size: 26px;
+    }
+    .choice_input{
+        border-radius: 20px;
+        background-color: rgb(255, 255, 255);
+        
+    }
+} 
+
+@media screen and (min-width: 360px) and (max-width:1023px)  {
+    .homepage {
+        height: 650px;
+        width: 100%;
+        background-image: url('../Header/background.png');
+        background-size: cover;
+        background-repeat: no-repeat; 
+        background-position: center;
+        position: relative; 
+    }   
+    
+    .navigation {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding-left: 20px;
+       color:white;
+       padding-right:  20px;
+       padding-top: 40px;
+    }
+    
+    .navigation .logo {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .navigat a {
+        color: white; 
+        text-decoration: none; 
+    }
+    
+    .navigation ul {
+        list-style: none;
+        display: flex;
+        gap: 24px; 
+        font-size: 14px;
+    }
+    
+    .choice_page{
+        height: 120px;
+    }
+    
+    .choice_toure_place {
+        position: absolute;
+        bottom: 150px;
+        left: 20px;
+        right: 20px;
+        height: 180px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0 10px 5px rgba(1, 1, 1, 0.1);
+        border-radius: 32px;
+        padding: 20px;
+    }
+
+    .text_choice h1{
+        font-size: 28px;
+        color:rgb(113, 154, 219);
+        font-weight: bold;
+    }
+    .text_choice p{
+        font-size: 18px;
+    }
+
+    .logo a {
+        font-size: 22px;
+        font-weight: bold;
+        color: white; 
+        text-decoration: none; 
+    }
+  
+}
+
