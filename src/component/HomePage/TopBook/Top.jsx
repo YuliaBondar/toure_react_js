@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import { CiLocationOn } from "react-icons/ci";
 import Grade from './grade.jsx';
-import Modal from './Modal.jsx';
+import Modal from './Modal/Modal.jsx';
 import { top_book } from './new_topbook.js';
+import ModalInf from './Modal/ModalInf.jsx'
 
 const Top = ({showCount}) => {
     const [selectedItemId, setSelectedItemId] = useState(null);
@@ -45,11 +46,11 @@ const Top = ({showCount}) => {
                 {selectedItemId !== null && (
                     <div className='modal_window'>
                         <div className='about_place'>
-                            <p className='name_places'>{top_book.find(item => item.id === selectedItemId).name}</p>
+                            {/* <p className='name_places'>{top_book.find(item => item.id === selectedItemId).name}</p> */}
                             <img className='places_image' src={top_book.find(item => item.id === selectedItemId).image} alt='image1'/>
                         </div>
                         <div className="order">
-                            <p>new hotel in this place</p>
+                        <ModalInf selectedItemId={selectedItemId} />
                         </div>
                     </div>
                 )}

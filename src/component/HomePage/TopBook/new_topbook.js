@@ -15,8 +15,8 @@ export const top_book = [
         places:"Rio de Janeiro, Brazil",
         money:120.000,
         image:img1,
-        geo:"https://maps.google.com?q=-22.965420, -43.201878"
-        
+        geo:"https://maps.google.com?q=-22.965420, -43.201878",
+        km: 123,
     },
     {
         id:2,
@@ -24,7 +24,8 @@ export const top_book = [
         places:"Bali, Indonesia",
         money:209.000,
         image:img2,
-        geo:"https://maps.google.com?q=-8.310906, 115.087731"
+        geo:"https://maps.google.com?q=-8.310906, 115.087731",
+        km: 90,
     },
     
     {
@@ -33,8 +34,8 @@ export const top_book = [
         places:"Sydney, Australia",
         money:189.990,
         image:img3,
-        geo:"https://maps.google.com?q=-33.858231, 151.207959"
-
+        geo:"https://maps.google.com?q=-33.858231, 151.207959",
+        km: 30,
     },
     {
         id:4,
@@ -42,8 +43,8 @@ export const top_book = [
         places:"Barcelona, Spain",
         money:180.000,
         image:img4,
-        geo:"https://maps.google.com?q=41.385793, 2.167870"
-
+        geo:"https://maps.google.com?q=41.385793, 2.167870",
+        km: 42,
     },
     {
         id:5,
@@ -51,8 +52,8 @@ export const top_book = [
         places:"Sydney, Australia",
         money:71.000,
         image:img5,
-        geo:"https://maps.google.com?q=-33.858231, 151.207959"
-
+        geo:"https://maps.google.com?q=-33.858231, 151.207959",
+        km: 78,
     },
     {
         id:6,
@@ -60,7 +61,8 @@ export const top_book = [
         places:"Barcelona, Spain",
         money:102.000,
         image:img6,
-        geo:"https://maps.google.com?q=41.385793, 2.167870"
+        geo:"https://maps.google.com?q=41.385793, 2.167870",
+        km: 120,
 
     },
     {
@@ -69,7 +71,8 @@ export const top_book = [
         places:"Bali, Indonesia",
         money:70.000,
         image:img7,
-        geo:"https://maps.google.com?q=-8.310906, 115.087731"
+        geo:"https://maps.google.com?q=-8.310906, 115.087731",
+        km: 45,
 
     },
     {
@@ -78,8 +81,8 @@ export const top_book = [
         places:"Phuket, Thailand",
         money:60.000,
         image:img8,
-        geo:"https://maps.google.com?q=7.878120, 98.390767"
-
+        geo:"https://maps.google.com?q=7.878120, 98.390767",
+        km: 210,
     },
     {
         id:9,
@@ -87,7 +90,8 @@ export const top_book = [
         places:"Barcelona, Spain",
         money:810.900,
         image:img4,
-        geo:"https://maps.google.com?q=41.385793, 2.167870"
+        geo:"https://maps.google.com?q=41.385793, 2.167870",
+        km: 56,
 
     },
     {
@@ -96,7 +100,8 @@ export const top_book = [
         places:"Sydney, Australia",
         money:91.000,
         image:img5,
-        geo:"https://maps.google.com?q=-33.858231, 151.207959"
+        geo:"https://maps.google.com?q=-33.858231, 151.207959",
+        km: 13,
 
     },
     {
@@ -105,7 +110,8 @@ export const top_book = [
         places:"Barcelona, Spain",
         money:12.000,
         image:img6,
-        geo:"https://maps.google.com?q=41.385793, 2.167870"
+        geo:"https://maps.google.com?q=41.385793, 2.167870",
+        km: 143,
 
     },
     {
@@ -114,7 +120,8 @@ export const top_book = [
         places:"Bali, Indonesia",
         money:70.000,
         image:img7,
-        geo:"https://maps.google.com?q=-8.310906, 115.087731"
+        geo:"https://maps.google.com?q=-8.310906, 115.087731",
+        km: 131,
 
     },
 
