@@ -18,7 +18,9 @@
         pointer-events: all;
     }
     .modal__content{
-        padding: 20px;
+        padding-left: 5px;
+        padding-right: 30px;
+        padding-bottom: 20px;
         border-radius:12px;
         background-color: white;
         transform: scale(0.5);
@@ -36,13 +38,12 @@
     }
     .modal_window{
         display:flex;
-        gap:10px;
+        gap:5px;
     }
 
     .order{
         margin-top:35px;
         width: 100vw;
-        border:1px solid gray;
     }
 }
 @media screen and (min-width: 1600px) {

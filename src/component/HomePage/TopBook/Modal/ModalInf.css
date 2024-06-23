@@ -1,10 +1,25 @@
 
 .modal_info {
-    width: 250px;
+    width: 300px;
     margin-top: -25px;
-    /* background-color: rgb(225, 224, 224); */
     height: 90%;
 }
 
+.airport{
+    background-color: rgb(226, 225, 224);
+}
 
+.name_places{
 
+    font-size: 20px;
+    color:rgb(53, 105, 144);
+}
+.geo{
+    color:rgb(53, 105, 144);
+    /* text-decoration: underline;
+    text-decoration-style:dashed ; */
+}
+.information_travel{
+    display:flex;
+    justify-content: space-around;
+}
