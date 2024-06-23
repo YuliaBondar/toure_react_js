@@ -14,12 +14,26 @@
     font-size: 20px;
     color:rgb(53, 105, 144);
 }
-.geo{
+.geo a{
     color:rgb(53, 105, 144);
-    /* text-decoration: underline;
-    text-decoration-style:dashed ; */
 }
+
 .information_travel{
     display:flex;
     justify-content: space-around;
+   gap:7px;
+}
+.price_people_for_tour{
+    text-align: center;
+}
+.people{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.photo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
 }
