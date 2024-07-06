@@ -41,6 +41,7 @@ const PriceForPeople = () => {
                     <span title='количество людей' className='sizeZnak' onClick={increaseChildrenCount}>  + </span>
                 
                 </span>
+                
                 </div>
 
                 <div className="people_people">
@@ -52,7 +53,8 @@ const PriceForPeople = () => {
                     
                 </span>
             </div>
-        </div>
+           
+        </div> <span>Цена </span>
       <hr/>
     </div>
   )
