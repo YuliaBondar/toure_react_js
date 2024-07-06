@@ -49,7 +49,7 @@ const ModalInf = ({ selectedItemId }) => {
                 </div>
                 <br/>
                 <hr/>
-                <Price />
+                <Price/>
             </div>
         </div>
     );
