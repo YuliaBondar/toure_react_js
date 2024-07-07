@@ -46,7 +46,7 @@ const Top = ({showCount}) => {
                 {selectedItemId !== null && (
                     <div className='modal_window'>
                         <div className='about_place'>
-                            {/* <p className='name_places'>{top_book.find(item => item.id === selectedItemId).name}</p> */}
+                           
                             <img className='places_image' src={top_book.find(item => item.id === selectedItemId).image} alt='image1'/>
                         </div>
                         <div className="order">

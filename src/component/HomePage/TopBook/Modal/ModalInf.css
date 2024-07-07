@@ -6,7 +6,7 @@
 }
 
 .airport{
-    background-color: rgb(226, 225, 224);
+    background-color: rgb(243, 243, 242);
 }
 
 .name_places{
@@ -36,4 +36,26 @@
   justify-content: space-between;
   align-items: center;
   
+}
+.sizeZnak{
+    color:gray;
+}
+
+.or_der{
+    display:flex;
+    gap:80px;
+   
+}
+.order_button{
+    background-color: green;
+    border-radius:20px;
+}
+
+.order_button:active{
+    background-color: rgb(247, 8, 8);
+}
+
+.number label {
+    color:red;
+    font-size: 12px;
 }
